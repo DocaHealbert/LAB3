@@ -1,0 +1,18 @@
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main(){
+
+  float KM_PER_MILE = 1.609;
+	int Distance_MILE = 100;
+	float Distance_Kilo = 0;
+	
+	Distance_Kilo = KM_PER_MILE * Distance_MILE;
+	
+	cout << fixed << setprecision(2) << Distance_Kilo << "km" << endl;
+
+    return 0;
+}
+
+
