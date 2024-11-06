@@ -1,0 +1,18 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main(){
+	
+	const float PIE = 3.1416;
+	float radius = 6;
+	float area = 0;
+	
+	area = PIE * (radius * radius);
+	
+	cout << fixed << setprecision(2) << "Area of circle is " << area << endl;
+	//fixed point-notation
+	//setprecision for set output two decimal point
+	
+	return 0;
+}
