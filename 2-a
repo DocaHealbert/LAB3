@@ -11,8 +11,8 @@ int main(){
 	Distance_Kilo = KM_PER_MILE * Distance_MILE;
 	
 	cout << fixed << setprecision(2) << Distance_Kilo << "km" << endl;
+	//fixed for notation floating-point
+	//setprecision(2) for output in two decimal point
 
     return 0;
 }
-
-
