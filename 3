@@ -13,7 +13,8 @@ int main(){
 	
 	area = PIE * (radius * radius);
 	
-	cout << fixed << setprecision(2) << "Area of circle is " << area << endl;
+	cout << setiosflags(ios::fixed | ios::showpoint) << setprecision(2) << "Area of circle is " << area <<endl;
+	//cout << fixed << setprecision(2) << "Area of circle is " << area << endl;
 	//fixed point-notation
 	//setprecision(2) for set output two decimal point
 	
