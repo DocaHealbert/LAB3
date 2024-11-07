@@ -11,11 +11,13 @@ int main(){
 	
 	data2 = data3 * data1;
 	
+	cout << "--------------------" <<endl;
 	cout << "| Variable | Value |" <<endl;
 	cout << "|------------------|" <<endl;
 	cout << "| Data1    | " << data1 << "     |" <<endl;
 	cout << "| Data2    | " << data2 << "  |" <<endl;
 	cout << "| Data3    | " << data3 << "   |" <<endl;
+	cout << "--------------------" <<endl;
 	
 	return 0;
 	
