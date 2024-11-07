@@ -1,5 +1,6 @@
 #include<iostream>
 #include<iomanip>
+#include<math.h>
 using namespace std;
 
 int main(){
@@ -11,7 +12,7 @@ int main(){
 	//cout << "Enter any number as radius :" <<endl;
 	//cin >> radius;
 	
-	area = PIE * (radius * radius);
+	area = PIE * pow(radius,2);
 	
 	cout << setiosflags(ios::fixed | ios::showpoint) << setprecision(2) << "Area of circle is " << area <<endl;
 	//cout << fixed << setprecision(2) << "Area of circle is " << area << endl;
